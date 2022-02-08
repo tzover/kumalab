@@ -1,0 +1,30 @@
+* {
+  float: none;
+  position: static;
+  background: #cbc8c2;
+}
+
+header {
+  height: 60px;
+  /* border-bottom: 1px solid #eee; */
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+  /* display: block; */
+}
+
+ul li {
+  list-style: none;
+  /* width: 100px; */
+}
+
+.col_gray {
+  background-color: #333;
+}
