@@ -17,10 +17,9 @@ RUN ln -sf /usr/share/zoneinfo/Asia/Tokyo /etc/localtime
 
 # Setup node container
 WORKDIR ${wkdir}
-COPY ./app/package*.json /home/${USER_NAME}/app/
+COPY ./app/ /home/${USER_NAME}/app/
 RUN yarn install
 
-COPY ./app/ /home/${USER_NAME}/app/
 # RUN npm run-script build
 
 
